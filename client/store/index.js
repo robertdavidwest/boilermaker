@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { dummySlice } from "../features/dummySlice";
+import dummyReducer from "../features/dummySlice";
 
 const store = configureStore({
   reducer: {
-    dummy: dummySlice,
+    dummy: dummyReducer,
   },
 });
 
